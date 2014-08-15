@@ -1,16 +1,20 @@
 {
-  "name": "mongo-relation",
+  "name": "easy-mongo",
   "version": "0.0.1",
   "description": "a plugin for Mongoskin to handle model relationships",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --compilers coffee:coffee-script/register",
-    "prepublish": "npm install && gulp default"
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChJJin/mongo-relation/"
+    "url": "https://github.com/ChJJin/easy-mongo.git"
   },
+  "bugs": {
+    "url": "https://github.com/ChJJin/easy-mongo/issues"
+  },
+  "homepage": "https://github.com/ChJJin/easy-mongo",
   "keywords": [
     "mongo",
     "mongoskin",
