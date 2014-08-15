@@ -2,7 +2,7 @@ should = require('should')
 Eventproxy = require('eventproxy')
 
 mongo = require('mongoskin')
-dbPath = "mongodb://localhost:27017/relation_test"
+dbPath = "mongodb://127.0.0.1:27017/relation_test"
 db = mongo.db(dbPath, {safe: true})
 Relation = require('../')(db)
 
