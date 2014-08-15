@@ -1,0 +1,36 @@
+{
+  "name": "mongo-relation",
+  "version": "0.0.1",
+  "description": "a plugin for Mongoskin to handle model relationships",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register",
+    "prepublish": "npm install && gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChJJin/mongo-relation/"
+  },
+  "keywords": [
+    "mongo",
+    "mongoskin",
+    "relation",
+    "relationship"
+  ],
+  "author": "ChJJin",
+  "license": "MIT",
+  "dependencies": {
+    "errfly": "0.0.1",
+    "eventproxy": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-coffee": "^2.1.1",
+    "gulp-util": "^3.0.0",
+    "should": "^4.0.4",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.21.4",
+    "mongoskin": "^1.4.4"
+  }
+}
